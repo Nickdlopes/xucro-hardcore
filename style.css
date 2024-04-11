@@ -259,7 +259,6 @@ input{
     
         .desc-lp{
             display: flex;
-            margin-left: 18%;
             flex-direction: column;
             padding-right: 0;
             padding-top: 0;
@@ -439,7 +438,6 @@ input{
         flex-direction: row;
         align-items: center;
         justify-content: space-between;
-        width: 100%;
         
         height: 698px;
         background-color: #1f1f1f;
@@ -853,7 +851,7 @@ input{
     }
     
     .desc-lp{
-        background-color: #FF0909;
+        
         /* margin-left: 18%; */
         padding-right: 5rem;
         padding-top: 5rem;
@@ -1282,7 +1280,24 @@ p{
 
     }
 
-    
+    .f7{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .txt-f7{
+        margin: 3.5vh;
+    }
+
+    .img-f7{
+        width: 25vh;
+        height: 25vh;
+    }
+
+    .img-f8{
+        width: 25vh;
+        height: 25vh;
+    }
 
     .texto-f2-lp {
         display: flex;
@@ -1372,7 +1387,6 @@ p{
     }
 
     .faixa-1-lp{
-        width: 100vw;
         padding: 0;
 
     }
@@ -1384,10 +1398,14 @@ p{
 
     .desc-lp{
         display: flex;
-        margin-left: 18%;
         flex-direction: column;
         padding-right: 0;
         padding-top: 0;
+        
+    }
+
+    .texto-1-f2-lp{
+        padding-left: 0em;
         
     }
     
@@ -1423,6 +1441,14 @@ p{
         justify-content: space-around;
         margin-left: -1em;
         margin-top: 4em;
+     }
+
+     .txtf5{
+        margin-left: 2em;
+     }
+     .img-f5{
+        margin-left: 0em;
+        margin-right: 0em;
      }
 
      header{
