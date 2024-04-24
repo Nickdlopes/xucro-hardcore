@@ -2,28 +2,22 @@
     font-family:'Cinzel-Regular';
     src: url(./fonts/Cinzel-Regular.otf);
 }
-
 @font-face {
     font-family:'CinzelDecorative-Regular';
     src: url(./fonts/CinzelDecorative-Regular.otf);
 }
-
-
 @font-face {
     font-family:'CinzelDecorative-Black' ;
     src: url(./fonts/CinzelDecorative-Black.otf);
 }
-
 @font-face {
     font-family:'CinzelDecorative-Bold' ;
     src: url(./fonts/CinzelDecorative-Bold.otf);
 }
-
 @font-face {
     font-family:'Poppins-Regular' ;
     src: url(./fonts/Poppins-Regular.otf);
 }
-
 @font-face {
     font-family:'Poppins-Medium' ;
     src: url(./fonts/Poppins-Medium.otf);
@@ -38,7 +32,6 @@
     src: url(./fonts/Arya-Regular.ttf);
 
 }
-
 @font-face {
     font-family:'Gothic-Regular' ;
     src: url(./fonts/Gothic-Regular.ttf);
@@ -852,9 +845,9 @@ input{
     
     .desc-lp{
         
-        /* margin-left: 18%; */
-        padding-right: 5rem;
-        padding-top: 5rem;
+        display: flex;
+        padding-right: 0rem;
+        padding-top: 0rem;
         
     }
     
@@ -1383,11 +1376,12 @@ p{
     }
 
     .imglp{
-        width: 30em;
+        width: 26em;
     }
 
     .faixa-1-lp{
         padding: 0;
+        justify-content: space-around;
 
     }
 
@@ -1398,14 +1392,17 @@ p{
 
     .desc-lp{
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
+        align-items: center;
+        align-content: center;
         padding-right: 0;
         padding-top: 0;
+        margin-left: 10%;
         
     }
 
     .texto-1-f2-lp{
-        padding-left: 0em;
+        margin-left: -7em;
         
     }
     
@@ -1471,3 +1468,74 @@ p{
 }
 
 
+@media(max-width: 850px){
+    .img-f5{
+        max-width: 20.5%;
+        height: auto;
+    }
+
+    .txt-f50{
+        margin-bottom: 1em;
+    }
+
+    .txt-f8{
+        max-width: 50%;
+    }
+
+    .rds{
+        margin-left: 10em;
+    }
+
+    .desc-lp{
+        flex-direction: column;
+
+    }
+
+    .desc-icons{
+        margin-left: 4em;
+    }
+
+    .titulo-f4{
+        padding: 0em 0em;
+        margin-top: 1em;
+        margin-bottom: 0.4em;
+        padding-left: 1em;
+        font-size: 50px;
+    }
+
+    .img-artista{
+        margin-left: 2em;
+    }
+
+    .imglp{
+        width: 23em;
+    }
+}
+
+@media(max-width: 600px){
+    .imglp{  
+        display: none;
+    }
+
+    .faixa-1-lp{
+        justify-content: flex-start;
+    }
+
+    .img-artista{
+        width: 6em;
+        margin-left: 1em;
+    }
+
+    .tp-artista{
+        margin-left: 2em;
+    }
+
+    .nm-artista{
+        margin-left: 2.9em;
+    }
+
+    .img-f5{
+        height: 11em;
+        margin-top: 1em;
+    }
+}
